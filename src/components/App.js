@@ -3,15 +3,15 @@ import "../styles/App.css";
 const App = () => {
   return (
     <div id="main">
-      <div class="container" style={{borderRadius:11px;}}>
-                <div class="community" style={{ backgroundColor: rgb(255, 253, 253);}}>
+      <div class="container">
+                <div class="community">
                   <h2 class="community-header">Join our community</h2>
                 </div>
                 <div class="card-details">
-                  <div class="card" style={{ backgroundColor: rgb(15, 67, 66);}}>
+                  <div class="card">
                     <p class="card-header">Monthly Subscription</p>
                   </div>
-                  <div class="why-us" style={{ backgroundColor: rgba(85, 145, 142, 0.698)}}>
+                  <div class="why-us">
                     <h4 class="why-us-header">Why Us</h4>
                     <p>Tutorials by industry experts
                       Peer & expert code review
