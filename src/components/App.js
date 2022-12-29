@@ -18,7 +18,7 @@ const App = () => {
                         Coding exercises
                           Access yo our GitHub repos
                             Community forum
-                              Flashed decks</p>
+                              Flashcard decks</p>
                   </div>
                 </div>
               </div>
