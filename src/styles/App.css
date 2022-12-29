@@ -1,14 +1,54 @@
+*{
+    padding: 000px;
+    margin: 0;
+    box-sizing: bo;
+}
 .container{
-borderRadius:11px;
+    background-color: rgb(21, 21, 48);
+    height:100vh;    
 }
 .community{
-backgroundColor: rgb(255, 253, 253);
-}
-.card{
- backgroundColor: rgb(15, 67, 66);
+    background-color:rgb(255, 253, 253);
+    height:auto;
+    border-radius: 11px;;
 }
 .why-us{
-backgroundColor: rgba(85, 145, 142, 0.698);
+    background-color:hsla(177, 78%, 35%, 0.462);
+    height:70vh;
 }
-p{
-text-align:cenetr;}
+.why-us-header{
+    color: white;
+    text-align: center;
+}
+.card-head,p{
+    color: white;
+    text-align: center;  
+}
+.card{
+    background-color: rgb(15, 67, 66); 
+}
+.card-details{
+    display:grid;
+   grid-template-columns:repeat(2, 1fr);
+}
+.community-header{ 
+    text-align:center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size:17px;
+}
+.community-subhead{
+    color: rgb(14, 147, 14);
+     text-align:center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size:17px;
+}
+.community-subhead1{
+    color: rgb(136, 136, 198);
+    text-align:center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size:15px;
+    justify-content: center;
+}
