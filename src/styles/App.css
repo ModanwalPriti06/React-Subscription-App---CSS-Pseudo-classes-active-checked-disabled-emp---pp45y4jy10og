@@ -1,0 +1,14 @@
+.container{
+borderRadius:11px;
+}
+.community{
+backgroundColor: rgb(255, 253, 253);
+}
+.card{
+ backgroundColor: rgb(15, 67, 66);
+}
+.why-us{
+backgroundColor: rgba(85, 145, 142, 0.698);
+}
+p{
+text-align:cenetr;}
